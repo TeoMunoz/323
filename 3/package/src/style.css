@@ -1,0 +1,40 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .menu {
+    background-color: red;
+  }
+
+  .header {
+    background-color: blue;
+  }
+  
+  .content {
+    flex-grow: 1;
+    background-color: green;
+  }
+
+  .sidebar {
+    background-color: greenyellow;
+  }
+
+  .footer {
+    background-color: brown;
+  }
+
+  .child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 20px;
+  }
